@@ -1,0 +1,51 @@
+body {
+    width: 1000px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+#container {
+    background-color: lightgray;
+    min-height: 200px;
+}
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding: 40px;
+}
+#footer {
+    background-color: #788D4D;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding: 20px;
+}
+
+#map {
+    width: 80%;
+    height: 400px;
+    padding: 20px;
+}
+nav {
+    background-color: #788D4D;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: slategrey;
+}
